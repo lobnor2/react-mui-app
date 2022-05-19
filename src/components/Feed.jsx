@@ -1,9 +1,17 @@
-import { Box } from '@mui/material'
+import Post from '../components/Post';
 import React from 'react'
+import { Box } from '@mui/system';
 
 const Feed = () => {
   return (
-    <Box bgcolor="lightgreen" flex={4} p={2}>Feed</Box>
+    <Box  flex={4} p={2}>
+      <Post name="lobsang Norbu"/>
+      <Post name="Tenzin" />
+      <Post name="Tashi Tsering"/>
+      <Post name="Gyatso"/>
+      <Post name="Choeyang"/>
+      <Post name="Lebron James"/>
+    </Box>
   )
 }
 
